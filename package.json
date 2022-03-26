@@ -1,0 +1,38 @@
+{
+  "name": "nuxonin",
+  "version": "1.0.0",
+  "description": "A local based database",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ./src",
+    "prepublish": "yarn build",
+    "build": "yarn tsc",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all"
+  },
+  "keywords": [
+    "database",
+    "db",
+    "fastdb",
+    "actions",
+    "typescript"
+  ],
+  "author": "sjuhyeon",
+  "license": "MIT",
+  "dependencies": {
+    "cjays": "1.0.3",
+    "lodash.defaults": "4.2.0",
+    "nanoid": "3.1.12"
+  },
+  "devDependencies": {
+    "@types/lodash.defaults": "4.2.6",
+    "@types/nanoid": "2.1.0",
+    "@types/node": "14.11.1",
+    "prettier": "^2.6.1",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "typings": "dist/index.d.ts",
+  "repository": "sjuhyeon/"
+}
